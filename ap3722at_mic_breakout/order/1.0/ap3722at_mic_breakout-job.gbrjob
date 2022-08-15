@@ -1,0 +1,118 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-F_Cu.gtl"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-B_Cu.gbl"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-F_Paste.gtp"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-B_Paste.gbp"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-F_SilkS.gto"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-B_SilkS.gbo"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "ap3722at_mic_breakout-F_Mask.gts"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "ap3722at_mic_breakout-B_Mask.gbs"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "ap3722at_mic_breakout-Edge_Cuts.gm1"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "6d69635f-6272-4656-916b-6f75742e6b69",
+"Name": "mic_breakout",
+"Revision": "rev?"
+},
+"Size": {
+"X": 31.8,
+"Y": 31.8
+}
+},
+"Header": {
+"CreationDate": "2021-08-20T09:35:12+02:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(5.1.9-0-10_14)"
+}
+},
+"MaterialStackup": [
+{
+"Notes": "Layer F.SilkS",
+"Type": "Legend"
+},
+{
+"Notes": "Layer F.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer F.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L1/L2",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer B.Cu",
+"Type": "Copper"
+},
+{
+"Notes": "Layer B.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer B.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer B.SilkS",
+"Type": "Legend"
+}
+]
+}

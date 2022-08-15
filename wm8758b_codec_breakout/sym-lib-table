@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "WM8758B_breakout")(type "Legacy")(uri "${KIPRJMOD}/wm8758b_codec_breakout.lib")(options "")(descr ""))
+  (lib (name "WM8758B_breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/wm8758b_codec_breakout-rescue.lib")(options "")(descr ""))
+)

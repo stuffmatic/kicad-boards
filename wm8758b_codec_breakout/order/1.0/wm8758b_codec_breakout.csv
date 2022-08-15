@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC Part #
+4.7uF Unpolarized capacitor,"C1,C2,C3,C4,C5,C6,C12,C13",C_0603_1608Metric,C19666
+1uF Unpolarized capacitor,"C8,C10,C11,C15,C16,C19",C_0603_1608Metric,C15849
+WM8758B ,U1,WM8758B,C323840

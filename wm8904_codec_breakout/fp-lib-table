@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "wm8904_breakout")(type "KiCad")(uri "${KIPRJMOD}/wm8904_codec_breakout.pretty")(options "")(descr ""))
+)

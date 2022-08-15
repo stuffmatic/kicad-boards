@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC Part #
+0.1u Unpolarized capacitor,"C201,C202,C207,C208,C210,C213,C215",C_0402_1005Metric,C1525
+4.7u Unpolarized capacitor,"C203,C205,C206,C212,C214,C216",C_0402_1005Metric,C23733
+2.2u Unpolarized capacitor,C204,C_0402_1005Metric,C12530
+1u Unpolarized capacitor,"C209,C211",C_0402_1005Metric,C52923
+20R Resistor,"R201,R202,R204,R206",R_0603_1608Metric,C22950
+2k2 Resistor,"R203,R205",R_0402_1005Metric,C25879
+"AMS1117-1.8 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223",U101,SOT-223-3_TabPin2,C6185
+wm8904 ,U201,wm8904,C323845
