@@ -1565,7 +1565,7 @@
   (symbol (lib_id "Connector:AudioJack3") (at 181.61 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a8962eda-0d23-4bc3-8c77-e73285b2c80e)
-    (property "Reference" "J?" (id 0) (at 179.705 50.8 0))
+    (property "Reference" "J102" (id 0) (at 179.705 50.8 0))
     (property "Value" "AudioJack3" (id 1) (at 179.705 53.34 0))
     (property "Footprint" "WM8758B_breakout:PJ-320B-3A" (id 2) (at 181.61 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1600,7 +1600,7 @@
   (symbol (lib_id "Connector:AudioJack3") (at 181.61 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e6e48900-5e32-4819-b8bb-9070db430e97)
-    (property "Reference" "J?" (id 0) (at 179.705 33.02 0))
+    (property "Reference" "J101" (id 0) (at 179.705 33.02 0))
     (property "Value" "AudioJack3" (id 1) (at 179.705 35.56 0))
     (property "Footprint" "WM8758B_breakout:PJ-320B-3A" (id 2) (at 181.61 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1730,11 +1730,11 @@
     (path "/00000000-0000-0000-0000-00006129928b"
       (reference "J2") (unit 1) (value "Conn_01x12") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical")
     )
-    (path "/a8962eda-0d23-4bc3-8c77-e73285b2c80e"
-      (reference "J?") (unit 1) (value "AudioJack3") (footprint "WM8758B_breakout:PJ-320B-3A")
-    )
     (path "/e6e48900-5e32-4819-b8bb-9070db430e97"
-      (reference "J?") (unit 1) (value "AudioJack3") (footprint "WM8758B_breakout:PJ-320B-3A")
+      (reference "J101") (unit 1) (value "AudioJack3") (footprint "WM8758B_breakout:PJ-320B-3A")
+    )
+    (path "/a8962eda-0d23-4bc3-8c77-e73285b2c80e"
+      (reference "J102") (unit 1) (value "AudioJack3") (footprint "WM8758B_breakout:PJ-320B-3A")
     )
     (path "/00000000-0000-0000-0000-000061297471"
       (reference "U1") (unit 1) (value "WM8758B") (footprint "WM8758B_breakout:WM8758B")

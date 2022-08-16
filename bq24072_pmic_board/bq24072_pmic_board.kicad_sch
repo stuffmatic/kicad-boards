@@ -1330,7 +1330,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 104.14 57.15 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 61eb7a4f-888e-4082-9c74-1d94f58e7c05)
-    (property "Reference" "JP102" (id 0) (at 98.425 57.15 0))
+    (property "Reference" "JP2" (id 0) (at 98.425 57.15 0))
     (property "Value" "SolderJumper_2_Open" (id 1) (at 100.7364 57.15 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 104.14 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1530,7 +1530,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 80.01 71.12 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b315454-a4a0-4952-bdbe-d4a8e96c16f9)
-    (property "Reference" "JP101" (id 0) (at 80.01 65.405 0))
+    (property "Reference" "JP1" (id 0) (at 80.01 65.405 0))
     (property "Value" "SolderJumper_2_Open" (id 1) (at 80.01 67.7164 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 80.01 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1998,10 +1998,10 @@
       (reference "J103") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/9b315454-a4a0-4952-bdbe-d4a8e96c16f9"
-      (reference "JP101") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/61eb7a4f-888e-4082-9c74-1d94f58e7c05"
-      (reference "JP102") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP2") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/f879c0e8-5893-4eb4-8e59-2292a632100f"
       (reference "R101") (unit 1) (value "180") (footprint "Resistor_SMD:R_0603_1608Metric")

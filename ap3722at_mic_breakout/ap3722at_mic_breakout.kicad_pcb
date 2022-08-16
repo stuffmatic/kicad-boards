@@ -251,6 +251,9 @@
   (gr_arc (start 178 118) (mid 177.12132 120.12132) (end 175 121) (layer "Edge.Cuts") (width 0.05) (tstamp bd8b080f-9216-4c0b-97f7-d31774323fe2))
   (gr_arc (start 161 121) (mid 158.87868 120.12132) (end 158 118) (layer "Edge.Cuts") (width 0.05) (tstamp c2e6ad25-fd22-4bb4-8659-e4070b343b69))
   (gr_line (start 161 101) (end 175 101) (layer "Edge.Cuts") (width 0.05) (tstamp efdded04-e14a-48ee-9920-4c10e9b01e59))
+  (gr_text "V1" (at 168 111) (layer "B.SilkS") (tstamp 2250b47c-e44a-4cb2-9ed3-afb611c3b1ee)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "AP3722AT\nMIC" (at 168 103.9) (layer "F.SilkS") (tstamp 267e7934-7b08-4866-b97a-d808589322d2)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -262,9 +265,6 @@
   )
   (gr_text "GND" (at 170.560836 117.20075 90) (layer "F.SilkS") (tstamp 842ed0d4-6bb0-430c-9f52-2efce4a6dd83)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
-  )
-  (gr_text "v1" (at 175.1 119.1) (layer "F.SilkS") (tstamp 87505f21-407b-442b-9269-c098de19686a)
-    (effects (font (size 1 1) (thickness 0.15)))
   )
 
   (segment (start 168.775 108.32) (end 168.775 108) (width 0.25) (layer "F.Cu") (net 1) (tstamp 1ff94ace-e150-48d4-ae77-4630a99f20ee))
@@ -293,10 +293,10 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 180 100.074135)
-        (xy 180 122)
-        (xy 156 122)
-        (xy 156 100)
+        (xy 179 100)
+        (xy 179 122)
+        (xy 157 122)
+        (xy 157 100)
       )
     )
     (filled_polygon

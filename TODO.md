@@ -1,8 +1,14 @@
 * hitta liten stereoplugg på jlcpcb, använd på codec breakouts
-  * C707224 (C725771)
+  * C707224 (C725771) kicad: (1T, 2R, 3S) ->
 * gör amp breakout 2x4 cm och lägg till stereoplugg för line in
 * headers till höger/vänster rel upp?
 * wm8904 regulator testpoint
+* hpjack_pot_board
+
+132.22, 67.996
+144, 99.9 
+156, 99,9
+167.78, 67.996
 
 # WM8904
 
