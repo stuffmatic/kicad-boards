@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/perarne/kicad/open-source-boards/tpa2012d2_amp_breakout/tpa2012d2_amp_breakout.kicad_sch</source>
+    <date>Wednesday, August 17, 2022 at 03:34:48 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tpa2012d2_amp_breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tpa2012d2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e563ef63-0bf7-4016-a172-adf114e28f31</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>SPK L</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1ba92d5-0d41-4be9-b483-47d08dc1785d</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>SPK R</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03a9b2a6-61aa-4881-8d12-83836e72a277</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>AudioJack3</value>
+      <footprint>tpa2012d2:PJ-320B-3A</footprint>
+      <fields>
+        <field name="LCSC Part">C707224</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="LCSC Part" value="C707224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9abd6d67-ba40-4dee-af1a-810a8242c86f</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>SD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee737e09-c622-45af-bfe6-b2882f4c573f</tstamps>
+    </comp>
+    <comp ref="J106">
+      <value>G0</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6977247-0e8e-422f-b397-a64eed1d46da</tstamps>
+    </comp>
+    <comp ref="J107">
+      <value>G1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tpa2012d2_amp_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d599ee5f-5c96-4c6d-a4f2-87e98db0087b</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>4f81fe66-376f-435c-bded-ecdb05d77dd8</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>dc8725c0-5fdd-4da6-b10b-479f89328d69</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>57cdd415-f844-444a-87dd-d9dcff6ee16b</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>81521529-4c36-4b8c-b6bf-fca67e647e07</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>1176cdcc-8953-442c-b2f1-b6010609c544</tstamps>
+    </comp>
+    <comp ref="C306">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>d90572f0-c9c6-4bf0-8afd-dcff690c2c74</tstamps>
+    </comp>
+    <comp ref="C307">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>ea9b0934-02ff-48ab-a835-5bca2a823e8a</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>TPA2012D2</value>
+      <footprint>tpa2012d2:TPA2012D2</footprint>
+      <fields>
+        <field name="LCSC Part">C7717</field>
+      </fields>
+      <libsource lib="wm8758b_board" part="TPA2012D2" description=""/>
+      <property name="LCSC Part" value="C7717"/>
+      <property name="Sheetname" value="TPA2012D2"/>
+      <property name="Sheetfile" value="tpa2012d2.kicad_sch"/>
+      <sheetpath names="/TPA2012D2/" tstamps="/245afab8-87c2-4797-af78-aa00d5229c94/"/>
+      <tstamps>0d6e844c-e4e3-4bae-99c1-0281f5127920</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wm8758b_board" part="TPA2012D2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPA2012D2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="OUTL+" type="output"/>
+        <pin num="3" name="PVDD" type="input"/>
+        <pin num="4" name="PGND" type="input"/>
+        <pin num="5" name="OUTL-" type="output"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="SDL" type="input"/>
+        <pin num="8" name="SDR" type="input"/>
+        <pin num="9" name="AVDD" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="OUTR-" type="output"/>
+        <pin num="12" name="PGND" type="input"/>
+        <pin num="13" name="PVDD" type="input"/>
+        <pin num="14" name="OUTR+" type="output"/>
+        <pin num="15" name="G0" type="input"/>
+        <pin num="16" name="INR+" type="input"/>
+        <pin num="17" name="INR-" type="input"/>
+        <pin num="18" name="AGND" type="input"/>
+        <pin num="19" name="INL-" type="input"/>
+        <pin num="20" name="INL+" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/TPA2012D2/OUTL+">
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="OUTL+" pintype="output"/>
+    </net>
+    <net code="2" name="/TPA2012D2/OUTL-">
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="5" pinfunction="OUTL-" pintype="output"/>
+    </net>
+    <net code="3" name="/TPA2012D2/OUTR+">
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U301" pin="14" pinfunction="OUTR+" pintype="output"/>
+    </net>
+    <net code="4" name="/TPA2012D2/OUTR-">
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="11" pinfunction="OUTR-" pintype="output"/>
+    </net>
+    <net code="5" name="G0">
+      <node ref="J106" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="15" pinfunction="G0" pintype="input"/>
+    </net>
+    <net code="6" name="G1">
+      <node ref="J107" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="G1" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="J101" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J104" pin="S" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J106" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U301" pin="12" pinfunction="PGND" pintype="input"/>
+      <node ref="U301" pin="18" pinfunction="AGND" pintype="input"/>
+      <node ref="U301" pin="4" pinfunction="PGND" pintype="input"/>
+    </net>
+    <net code="8" name="INL-">
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J104" pin="T" pintype="passive"/>
+    </net>
+    <net code="9" name="INR-">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J104" pin="R" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C302-Pad1)">
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="U301" pin="20" pinfunction="INL+" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(C303-Pad1)">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="U301" pin="19" pinfunction="INL-" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C304-Pad2)">
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="U301" pin="17" pinfunction="INR-" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C306-Pad1)">
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="U301" pin="16" pinfunction="INR+" pintype="input"/>
+    </net>
+    <net code="14" name="SD">
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="7" pinfunction="SDL" pintype="input"/>
+      <node ref="U301" pin="8" pinfunction="SDR" pintype="input"/>
+    </net>
+    <net code="15" name="VDD">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J105" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J106" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J107" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U301" pin="13" pinfunction="PVDD" pintype="input"/>
+      <node ref="U301" pin="3" pinfunction="PVDD" pintype="input"/>
+      <node ref="U301" pin="9" pinfunction="AVDD" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(J107-Pad1)">
+      <node ref="J107" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(U301-Pad6)">
+      <node ref="U301" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U301-Pad10)">
+      <node ref="U301" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

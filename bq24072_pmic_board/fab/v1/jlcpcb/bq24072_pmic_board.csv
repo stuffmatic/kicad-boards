@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC Part #
+1u Unpolarized capacitor,C201,C_0603_1608Metric,C15849
+4.7u Unpolarized capacitor,"C202,C203",C_0603_1608Metric,C19666
+VUSB Light emitting diode,D101,LED_0603_1608Metric,C72043
+OUT Light emitting diode,D102,LED_0603_1608Metric,C72043
+PGOOD Light emitting diode,D202,LED_0603_1608Metric,C72043
+CHG Light emitting diode,D203,LED_0805_2012Metric,C84256
+USB_B_Micro USB Micro Type B connector,J101,USB_Micro-AB_Molex_47590-0001,C136001
+1k Resistor,"R101,R102,R203,R205,R206",R_0603_1608Metric,C21190
+2k Resistor,R202,R_0603_1608Metric,C22975
+10k Resistor,R204,R_0603_1608Metric,C25804
+"AMS1117-3.3 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",U101,SOT-223-3_TabPin2,C6186
+"BQ24072RGT USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16",U201,VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,C140288

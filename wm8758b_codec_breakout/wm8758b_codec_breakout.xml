@@ -1,24 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/Users/perarne/kicad/WM8758B_breakout/WM8758B_breakout.sch</source>
-    <date>2021 August 20, Friday 08:50:21</date>
-    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <source>/Users/perarne/kicad/open-source-boards/wm8758b_codec_breakout/wm8758b_codec_breakout.kicad_sch</source>
+    <date>Wednesday, August 17, 2022 at 03:36:49 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>WM8758B_breakout.sch</source>
+        <source>wm8758b_codec_breakout.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006129f9bb</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006129f73f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006129ee11</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006129e467</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000612a032d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000612a008d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006133dde1</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006133d8c9</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611e74d6</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006132a35c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613299f7</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611e1beb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611e2e9a</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611e7ef8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061298857</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006129928b</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>AudioJack3</value>
+      <footprint>WM8758B_breakout:PJ-320B-3A</footprint>
+      <fields>
+        <field name="LCSC Part">C707224</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="LCSC Part" value="C707224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6e48900-5e32-4819-b8bb-9070db430e97</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>AudioJack3</value>
+      <footprint>WM8758B_breakout:PJ-320B-3A</footprint>
+      <fields>
+        <field name="LCSC Part">C707224</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="LCSC Part" value="C707224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8962eda-0d23-4bc3-8c77-e73285b2c80e</tstamps>
+    </comp>
     <comp ref="U1">
       <value>WM8758B</value>
       <footprint>WM8758B_breakout:WM8758B</footprint>
@@ -26,187 +265,31 @@
         <field name="LCSC Part">C323840</field>
       </fields>
       <libsource lib="WM8758B_breakout" part="WM8758B" description=""/>
+      <property name="LCSC Part" value="C323840"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8758b_codec_breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>61297471</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6129E467</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6129EE11</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6129F73F</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6129F9BB</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>612A008D</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x12</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="JLCPCB BOM">False</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6129928B</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>Conn_01x12</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="JLCPCB BOM">False</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61298857</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>612A032D</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>613299F7</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6133D8C9</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6133DDE1</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611E1BEB</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611E2E9A</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611E74D6</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C15849</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611E7EF8</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C19666</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6132A35C</tstamp>
+      <tstamps>00000000-0000-0000-0000-000061297471</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x12">
       <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -216,6 +299,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x12</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -241,10 +325,11 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="WM8758B_breakout" part="WM8758B">
@@ -253,204 +338,213 @@
         <field name="Value">WM8758B</field>
       </fields>
       <pins>
-        <pin num="1" name="LIP" type="unspc"/>
-        <pin num="2" name="LIN" type="unspc"/>
-        <pin num="3" name="L2/GPIO2" type="unspc"/>
-        <pin num="4" name="RIP" type="unspc"/>
-        <pin num="5" name="RIN" type="unspc"/>
-        <pin num="6" name="R2/GPIO3" type="unspc"/>
-        <pin num="7" name="LRC" type="unspc"/>
-        <pin num="8" name="BCLK" type="unspc"/>
-        <pin num="9" name="ADCDAT" type="unspc"/>
-        <pin num="10" name="DACDAT" type="unspc"/>
-        <pin num="11" name="MCLK" type="unspc"/>
-        <pin num="12" name="DGND" type="unspc"/>
-        <pin num="13" name="DCVDD" type="unspc"/>
-        <pin num="14" name="DBVDD" type="unspc"/>
-        <pin num="15" name="CSB/GPIO1" type="unspc"/>
-        <pin num="16" name="SCLK" type="unspc"/>
-        <pin num="17" name="SDIN" type="unspc"/>
-        <pin num="18" name="MODE" type="unspc"/>
-        <pin num="19" name="HP_COM" type="unspc"/>
-        <pin num="20" name="LINE_COM" type="unspc"/>
-        <pin num="21" name="OUT4" type="unspc"/>
-        <pin num="22" name="OUT3" type="unspc"/>
-        <pin num="23" name="ROUT2" type="unspc"/>
-        <pin num="24" name="AGND2" type="unspc"/>
-        <pin num="25" name="LOUT2" type="unspc"/>
-        <pin num="26" name="AVDD2" type="unspc"/>
-        <pin num="27" name="VMID" type="unspc"/>
-        <pin num="28" name="AGND1" type="unspc"/>
-        <pin num="29" name="ROUT1" type="unspc"/>
-        <pin num="30" name="LOUT1" type="unspc"/>
-        <pin num="31" name="AVDD1" type="unspc"/>
-        <pin num="32" name="MICBIAS" type="unspc"/>
-        <pin num="33" name="GNDPADDLE" type="unspc"/>
+        <pin num="1" name="LIP" type="unspecified"/>
+        <pin num="2" name="LIN" type="unspecified"/>
+        <pin num="3" name="L2/GPIO2" type="unspecified"/>
+        <pin num="4" name="RIP" type="unspecified"/>
+        <pin num="5" name="RIN" type="unspecified"/>
+        <pin num="6" name="R2/GPIO3" type="unspecified"/>
+        <pin num="7" name="LRC" type="unspecified"/>
+        <pin num="8" name="BCLK" type="unspecified"/>
+        <pin num="9" name="ADCDAT" type="unspecified"/>
+        <pin num="10" name="DACDAT" type="unspecified"/>
+        <pin num="11" name="MCLK" type="unspecified"/>
+        <pin num="12" name="DGND" type="unspecified"/>
+        <pin num="13" name="DCVDD" type="unspecified"/>
+        <pin num="14" name="DBVDD" type="unspecified"/>
+        <pin num="15" name="CSB/GPIO1" type="unspecified"/>
+        <pin num="16" name="SCLK" type="unspecified"/>
+        <pin num="17" name="SDIN" type="unspecified"/>
+        <pin num="18" name="MODE" type="unspecified"/>
+        <pin num="19" name="HP_COM" type="unspecified"/>
+        <pin num="20" name="LINE_COM" type="unspecified"/>
+        <pin num="21" name="OUT4" type="unspecified"/>
+        <pin num="22" name="OUT3" type="unspecified"/>
+        <pin num="23" name="ROUT2" type="unspecified"/>
+        <pin num="24" name="AGND2" type="unspecified"/>
+        <pin num="25" name="LOUT2" type="unspecified"/>
+        <pin num="26" name="AVDD2" type="unspecified"/>
+        <pin num="27" name="VMID" type="unspecified"/>
+        <pin num="28" name="AGND1" type="unspecified"/>
+        <pin num="29" name="ROUT1" type="unspecified"/>
+        <pin num="30" name="LOUT1" type="unspecified"/>
+        <pin num="31" name="AVDD1" type="unspecified"/>
+        <pin num="32" name="MICBIAS" type="unspecified"/>
+        <pin num="33" name="GNDPADDLE" type="unspecified"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Connector_Generic">
-      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="WM8758B_breakout">
-      <uri>/Users/perarne/kicad/WM8758B_breakout/WM8758B_breakout.lib</uri>
+      <uri>/Users/perarne/kicad/open-source-boards/wm8758b_codec_breakout/wm8758b_codec_breakout.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="DACDAT">
-      <node ref="U1" pin="10"/>
-      <node ref="J1" pin="10"/>
+    <net code="1" name="ADCDAT">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="ADCDAT" pintype="unspecified"/>
     </net>
-    <net code="2" name="MCLK">
-      <node ref="U1" pin="11"/>
-      <node ref="J1" pin="11"/>
+    <net code="2" name="BCLK">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="BCLK" pintype="unspecified"/>
     </net>
     <net code="3" name="CSB_GPIO1">
-      <node ref="J2" pin="11"/>
-      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="CSB/GPIO1" pintype="unspecified"/>
     </net>
-    <net code="4" name="SCLK">
-      <node ref="J2" pin="10"/>
-      <node ref="U1" pin="16"/>
+    <net code="4" name="DACDAT">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="DACDAT" pintype="unspecified"/>
     </net>
-    <net code="5" name="SDIN">
-      <node ref="U1" pin="17"/>
-      <node ref="J2" pin="9"/>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J101" pin="S" pintype="passive"/>
+      <node ref="J102" pin="S" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="DGND" pintype="unspecified"/>
+      <node ref="U1" pin="24" pinfunction="AGND2" pintype="unspecified"/>
+      <node ref="U1" pin="28" pinfunction="AGND1" pintype="unspecified"/>
+      <node ref="U1" pin="33" pinfunction="GNDPADDLE" pintype="unspecified"/>
     </net>
-    <net code="6" name="MODE">
-      <node ref="U1" pin="18"/>
-      <node ref="J2" pin="8"/>
+    <net code="6" name="L2_GPIO2">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(C12-Pad2)">
-      <node ref="U1" pin="19"/>
-      <node ref="C12" pin="2"/>
+    <net code="7" name="LIN">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J101" pin="T" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C13-Pad1)">
-      <node ref="U1" pin="20"/>
-      <node ref="C13" pin="1"/>
+    <net code="8" name="LIP">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="9" name="OUT4">
-      <node ref="U1" pin="21"/>
-      <node ref="J2" pin="7"/>
+    <net code="9" name="LOUT1">
+      <node ref="J102" pin="T" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="LOUT1" pintype="unspecified"/>
     </net>
-    <net code="10" name="OUT3">
-      <node ref="U1" pin="22"/>
-      <node ref="J2" pin="6"/>
+    <net code="10" name="LOUT2">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="LOUT2" pintype="unspecified"/>
     </net>
-    <net code="11" name="ROUT2">
-      <node ref="U1" pin="23"/>
-      <node ref="J2" pin="5"/>
+    <net code="11" name="LRC">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="LRC" pintype="unspecified"/>
     </net>
-    <net code="12" name="LOUT2">
-      <node ref="U1" pin="25"/>
-      <node ref="J2" pin="4"/>
+    <net code="12" name="MCLK">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="MCLK" pintype="unspecified"/>
     </net>
-    <net code="13" name="ROUT1">
-      <node ref="U1" pin="29"/>
-      <node ref="J2" pin="3"/>
+    <net code="13" name="MICBIAS">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="MICBIAS" pintype="unspecified"/>
     </net>
-    <net code="14" name="LOUT1">
-      <node ref="U1" pin="30"/>
-      <node ref="J2" pin="2"/>
+    <net code="14" name="MODE">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="MODE" pintype="unspecified"/>
     </net>
-    <net code="15" name="LRC">
-      <node ref="U1" pin="7"/>
-      <node ref="J1" pin="7"/>
+    <net code="15" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="VMID" pintype="unspecified"/>
     </net>
-    <net code="16" name="BCLK">
-      <node ref="J1" pin="8"/>
-      <node ref="U1" pin="8"/>
+    <net code="16" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="R2/GPIO3" pintype="unspecified"/>
     </net>
-    <net code="17" name="ADCDAT">
-      <node ref="J1" pin="9"/>
-      <node ref="U1" pin="9"/>
+    <net code="17" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="L2/GPIO2" pintype="unspecified"/>
     </net>
-    <net code="18" name="GND">
-      <node ref="C6" pin="2"/>
-      <node ref="J1" pin="12"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U1" pin="33"/>
-      <node ref="U1" pin="28"/>
-      <node ref="U1" pin="24"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U1" pin="12"/>
+    <net code="18" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="RIN" pintype="unspecified"/>
     </net>
-    <net code="19" name="VDD">
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="13"/>
-      <node ref="U1" pin="14"/>
-      <node ref="U1" pin="26"/>
-      <node ref="U1" pin="31"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="J2" pin="12"/>
+    <net code="19" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="HP_COM" pintype="unspecified"/>
     </net>
-    <net code="20" name="MICBIAS">
-      <node ref="J2" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U1" pin="32"/>
+    <net code="20" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="LINE_COM" pintype="unspecified"/>
     </net>
-    <net code="21" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="27"/>
+    <net code="21" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="LIP" pintype="unspecified"/>
     </net>
-    <net code="22" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="U1" pin="3"/>
+    <net code="22" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="LIN" pintype="unspecified"/>
     </net>
-    <net code="23" name="L2_GPIO2">
-      <node ref="J1" pin="3"/>
-      <node ref="C10" pin="2"/>
+    <net code="23" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RIP" pintype="unspecified"/>
     </net>
-    <net code="24" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
-      <node ref="U1" pin="6"/>
+    <net code="24" name="OUT3">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="OUT3" pintype="unspecified"/>
     </net>
-    <net code="25" name="R2_GPIO3">
-      <node ref="J1" pin="6"/>
-      <node ref="C8" pin="2"/>
+    <net code="25" name="OUT4">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="OUT4" pintype="unspecified"/>
     </net>
-    <net code="26" name="Net-(C15-Pad1)">
-      <node ref="U1" pin="1"/>
-      <node ref="C15" pin="1"/>
+    <net code="26" name="R2_GPIO3">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
-    <net code="27" name="LIP">
-      <node ref="C15" pin="2"/>
-      <node ref="J1" pin="1"/>
+    <net code="27" name="RIN">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J101" pin="R" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(C16-Pad1)">
-      <node ref="U1" pin="2"/>
-      <node ref="C16" pin="1"/>
+    <net code="28" name="RIP">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="29" name="LIN">
-      <node ref="J1" pin="2"/>
-      <node ref="C16" pin="2"/>
+    <net code="29" name="ROUT1">
+      <node ref="J102" pin="R" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="ROUT1" pintype="unspecified"/>
     </net>
-    <net code="30" name="RIN">
-      <node ref="C11" pin="1"/>
-      <node ref="J1" pin="5"/>
+    <net code="30" name="ROUT2">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="ROUT2" pintype="unspecified"/>
     </net>
-    <net code="31" name="Net-(C11-Pad2)">
-      <node ref="U1" pin="5"/>
-      <node ref="C11" pin="2"/>
+    <net code="31" name="SCLK">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SCLK" pintype="unspecified"/>
     </net>
-    <net code="32" name="RIP">
-      <node ref="J1" pin="4"/>
-      <node ref="C19" pin="1"/>
+    <net code="32" name="SDIN">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SDIN" pintype="unspecified"/>
     </net>
-    <net code="33" name="Net-(C19-Pad2)">
-      <node ref="C19" pin="2"/>
-      <node ref="U1" pin="4"/>
+    <net code="33" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="DCVDD" pintype="unspecified"/>
+      <node ref="U1" pin="14" pinfunction="DBVDD" pintype="unspecified"/>
+      <node ref="U1" pin="26" pinfunction="AVDD2" pintype="unspecified"/>
+      <node ref="U1" pin="31" pinfunction="AVDD1" pintype="unspecified"/>
     </net>
   </nets>
 </export>

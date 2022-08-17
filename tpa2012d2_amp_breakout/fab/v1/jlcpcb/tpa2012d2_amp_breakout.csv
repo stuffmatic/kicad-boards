@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC Part #
+1u Unpolarized capacitor,"C301,C307",C_0603_1608Metric,C15849
+0.1u Unpolarized capacitor,"C302,C303,C304,C305,C306",C_0603_1608Metric,C14663
+"AudioJack3 Audio Jack, 3 Poles (Stereo / TRS)",J104,PJ-320B-3A,C707224
+TPA2012D2 ,U301,TPA2012D2,C7717

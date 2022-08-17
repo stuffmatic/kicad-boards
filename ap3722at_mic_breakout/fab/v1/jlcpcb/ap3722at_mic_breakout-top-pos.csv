@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C201","0.1uF","C_0603_1608Metric",163.000000,-113.000000,-90.000000,top
+"J1","Conn_01x03_Female","PinHeader_1x03_P2.54mm_Vertical",174.000000,-115.525000,180.000000,top
+"M201","APT3722AT","AP3722AT",166.000000,-113.000000,180.000000,top

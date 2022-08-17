@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/perarne/kicad/wm8904_breakout/wm8904_breakout.kicad_sch</source>
-    <date>Saturday, August 13, 2022 at 10:25:03 PM</date>
+    <source>/Users/perarne/kicad/open-source-boards/wm8904_codec_breakout/wm8904_codec_breakout.kicad_sch</source>
+    <date>Wednesday, August 17, 2022 at 03:40:15 PM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>wm8904_breakout.kicad_sch</source>
+        <source>wm8904_codec_breakout.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -51,7 +51,7 @@
       <libsource lib="Connector" part="Conn_01x12_Female" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="JLCPCB BOM" value="False"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="wm8904_breakout.kicad_sch"/>
+      <property name="Sheetfile" value="wm8904_codec_breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>583d6084-3a53-4056-af7e-142f327c101e</tstamps>
     </comp>
@@ -64,9 +64,35 @@
       <libsource lib="Connector" part="Conn_01x12_Female" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="JLCPCB BOM" value="False"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="wm8904_breakout.kicad_sch"/>
+      <property name="Sheetfile" value="wm8904_codec_breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>07fa8657-644b-45cc-ac51-bf97ceb0491f</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>AudioJack3</value>
+      <footprint>wm8904_breakout:PJ-320B-3A</footprint>
+      <fields>
+        <field name="LCSC Part">C707224</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="LCSC Part" value="C707224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8904_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ae15509-a4fd-478a-b87a-fcd60b7c6211</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>AudioJack3</value>
+      <footprint>wm8904_breakout:PJ-320B-3A</footprint>
+      <fields>
+        <field name="LCSC Part">C707224</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="LCSC Part" value="C707224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wm8904_codec_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01d5c423-ebe7-4b07-8f28-d8bf6683bbe0</tstamps>
     </comp>
     <comp ref="U101">
       <value>AMS1117-1.8</value>
@@ -78,7 +104,7 @@
       <libsource lib="Regulator_Linear" part="AMS1117-1.8" description="1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223"/>
       <property name="LCSC Part" value="C6185"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="wm8904_breakout.kicad_sch"/>
+      <property name="Sheetfile" value="wm8904_codec_breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>952e9d28-22f9-43e0-bee5-7380cf9b61ad</tstamps>
     </comp>
@@ -383,6 +409,23 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Conn_01x12_Female">
       <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -512,7 +555,7 @@
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="wm8904_breakout">
-      <uri>/Users/perarne/kicad/wm8904_breakout/wm8904_breakout.kicad_sym</uri>
+      <uri>/Users/perarne/kicad/open-source-boards/wm8904_codec_breakout/wm8904_breakout.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -531,6 +574,7 @@
       <node ref="C202" pin="2" pintype="passive"/>
       <node ref="C203" pin="1" pintype="passive"/>
       <node ref="C212" pin="2" pintype="passive"/>
+      <node ref="J101" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U201" pin="23" pinfunction="AVDD" pintype="unspecified"/>
       <node ref="U201" pin="4" pinfunction="DBVDD" pintype="unspecified"/>
@@ -561,6 +605,8 @@
       <node ref="C216" pin="1" pintype="passive"/>
       <node ref="J102" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J102" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J103" pin="S" pintype="passive"/>
+      <node ref="J104" pin="S" pintype="passive"/>
       <node ref="R201" pin="2" pintype="passive"/>
       <node ref="R202" pin="2" pintype="passive"/>
       <node ref="R204" pin="2" pintype="passive"/>
@@ -578,11 +624,13 @@
     <net code="9" name="HPOUTL">
       <node ref="C207" pin="1" pintype="passive"/>
       <node ref="J102" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J104" pin="T" pintype="passive"/>
       <node ref="U201" pin="13" pinfunction="HPOUTL" pintype="unspecified"/>
     </net>
     <net code="10" name="HPOUTR">
       <node ref="C208" pin="1" pintype="passive"/>
       <node ref="J102" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J104" pin="R" pintype="passive"/>
       <node ref="U201" pin="15" pinfunction="HPOUTR" pintype="unspecified"/>
     </net>
     <net code="11" name="IN1L{slash}DMICDAT1">
@@ -596,11 +644,13 @@
     <net code="13" name="IN2L">
       <node ref="C209" pin="1" pintype="passive"/>
       <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J103" pin="T" pintype="passive"/>
       <node ref="R203" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="IN2R">
       <node ref="C211" pin="1" pintype="passive"/>
       <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J103" pin="R" pintype="passive"/>
       <node ref="R205" pin="1" pintype="passive"/>
     </net>
     <net code="15" name="IRQ{slash}GPIO1">
@@ -685,7 +735,6 @@
     </net>
     <net code="34" name="VDD">
       <node ref="J101" pin="11" pinfunction="Pin_11" pintype="passive"/>
-      <node ref="J101" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
   </nets>

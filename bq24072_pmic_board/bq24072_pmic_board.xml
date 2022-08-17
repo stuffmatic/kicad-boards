@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/perarne/kicad/open-source-boards/bq24072_pmic_board/bq24072_pmic_board.kicad_sch</source>
+    <date>Wednesday, August 17, 2022 at 03:31:27 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bq24072_pmic_board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bq24072.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D101">
+      <value>VUSB</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C72043"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>990ba1d1-1e01-4f5f-ac53-fc575be49d79</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>OUT</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C72043"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91655258-cdef-4bc6-8efc-678d5cd3fe68</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-AB_Molex_47590-0001</footprint>
+      <fields>
+        <field name="LCSC Part">C136001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC Part" value="C136001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76ee303c-1cfc-45a8-ae72-af3efaba6c47</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Battery</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7397d23-c236-4cc1-9440-12726526abc6</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6370a18-df10-4e5b-9423-b0399ccd17a5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b315454-a4a0-4952-bdbe-d4a8e96c16f9</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61eb7a4f-888e-4082-9c74-1d94f58e7c05</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faa6ffcf-90bd-4ebc-954a-2152f7a206af</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfe7236c-fcbb-415b-ad2a-7a38253b1ce3</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>BAT+</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a9c45ce-3ce1-4198-a85d-be194c835774</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>OUT</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f784a88-53fb-492f-8f77-1f4e48b1e41f</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96754688-e4b1-4334-b871-045842f40c13</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f219e85-8bbc-4683-9db4-ae3e439b4b5b</tstamps>
+    </comp>
+    <comp ref="TP105">
+      <value>VUSB</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb847bb2-4127-484a-a631-b7d43ba4cf97</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="LCSC Part" value="C6186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81a187f8-5141-43a8-ae44-22e142b3f24b</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C15849"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>37acb77a-4142-4275-bc77-22ae33700deb</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>305963a0-7ec2-4781-aaf8-6417cff3b151</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C19666"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>04c85d5e-0fd0-43ba-82be-77a6c9272827</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>PGOOD</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C72043"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>861cb1ef-0326-4d34-968d-87edf295f995</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>CHG</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C84256</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part" value="C84256"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>6798fa25-2964-4341-bb01-c409d4da9cf7</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C22975</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C22975"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>76f2d397-8f3c-4799-a9c5-6ee7cbb8d293</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>4ef79b22-88fe-45d2-99f7-8d367793e669</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C25804"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>22319491-cafd-42b4-bf61-446eb2bc008c</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>09d94f95-f953-476f-83e3-f1c6db04e6b4</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part" value="C21190"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>e8530dea-0420-47e6-8fcf-1fefae5679ea</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>BQ24072RGT</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24072.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C140288</field>
+      </fields>
+      <libsource lib="Battery_Management" part="BQ24072RGT" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="LCSC Part" value="C140288"/>
+      <property name="Sheetname" value="bq24072"/>
+      <property name="Sheetfile" value="bq24072.kicad_sch"/>
+      <sheetpath names="/bq24072/" tstamps="/38395bfc-58fa-4d48-a8ef-b7c78e8545e9/"/>
+      <tstamps>c1741a96-2771-4bf7-889e-5f38cdcc8f2d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="BQ24072RGT">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24072.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24072RGT</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24072.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="TD" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="BATT+">
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U201" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="3" name="D+">
+      <node ref="J101" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="D-">
+      <node ref="J101" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J103" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J101" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="TP103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="15" pinfunction="TD" pintype="input"/>
+      <node ref="U201" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U201" pin="5" pinfunction="EN2" pintype="input"/>
+      <node ref="U201" pin="8" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D102-Pad2)">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D202-Pad1)">
+      <node ref="D202" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U201" pin="7" pinfunction="~{PGOOD}" pintype="open_collector"/>
+    </net>
+    <net code="9" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D203-Pad1)">
+      <node ref="D203" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U201" pin="9" pinfunction="~{CHG}" pintype="open_collector"/>
+    </net>
+    <net code="11" name="Net-(D203-Pad2)">
+      <node ref="D203" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J101-Pad4)">
+      <node ref="J101" pin="4" pinfunction="ID" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J101-Pad6)">
+      <node ref="J101" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R202-Pad1)">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="U201" pin="12" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R203-Pad1)">
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="U201" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R204-Pad2)">
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="U201" pin="1" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="17" name="OUT">
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U201" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U201" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="EN1" pintype="input"/>
+    </net>
+    <net code="18" name="VUSB">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="TP105" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="19" name="unconnected-(U201-Pad14)">
+      <node ref="U201" pin="14" pinfunction="TMR" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

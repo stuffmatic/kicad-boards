@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/perarne/kicad/open-source-boards/ap3722at_mic_breakout/ap3722at_mic_breakout.kicad_sch</source>
+    <date>Wednesday, August 17, 2022 at 03:25:41 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ap3722at_mic_breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ap3722at/" tstamps="/18af1d88-91db-4163-9359-d7124e411ab6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ap3722at.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB BOM">False</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB BOM" value="False"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ap3722at_mic_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611e1cad</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="Sheetname" value="ap3722at"/>
+      <property name="Sheetfile" value="ap3722at.kicad_sch"/>
+      <sheetpath names="/ap3722at/" tstamps="/18af1d88-91db-4163-9359-d7124e411ab6/"/>
+      <tstamps>04f2824f-3443-40bb-8214-5d853124bdb4</tstamps>
+    </comp>
+    <comp ref="M201">
+      <value>APT3722AT</value>
+      <footprint>mic_breakout:AP3722AT</footprint>
+      <fields>
+        <field name="LCSC Part">C918198</field>
+      </fields>
+      <libsource lib="mic_breakout" part="APT3722AT" description=""/>
+      <property name="LCSC Part" value="C918198"/>
+      <property name="Sheetname" value="ap3722at"/>
+      <property name="Sheetfile" value="ap3722at.kicad_sch"/>
+      <sheetpath names="/ap3722at/" tstamps="/18af1d88-91db-4163-9359-d7124e411ab6/"/>
+      <tstamps>d652cc14-cade-40ef-aafa-a5f29bc86d85</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mic_breakout" part="APT3722AT">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">APT3722AT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="OUT" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="mic_breakout">
+      <uri>/Users/perarne/kicad/open-source-boards/ap3722at_mic_breakout/ap3722at_mic_breakout.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M201" pin="2" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="2" name="OUT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M201" pin="3" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="3" name="VDD">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M201" pin="1" pinfunction="VDD" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
