@@ -9,11 +9,10 @@ A [TPA2012D2](datasheets/1809121818_Texas-Instruments-TPA2012D2RTJR_C7717.pdf) c
 ## Headers
 
 * __GND__ - Ground
-* __INL__ - Left channel line input
-* __INR__ - Right channel line input
+* __INL__ and __INR__ - Left and right channel line input. May be used instead of the line input jack.
 * __VDD__ - Supply voltage, 2.5V - 5.5V recommended
 
-The __G0__, __G1__ jumper controls the output gain and the  __SD__ jumper controls the __SDL__ and __SDR__ channel shutdown pins, see [datasheet](datasheets/1809121818_Texas-Instruments-TPA2012D2RTJR_C7717.pdf).
+The __G0__ and __G1__ jumpers control the output gain and the  __SD__ jumper controls the __SDL__ and __SDR__ channel shutdown pins, see [datasheet](datasheets/1809121818_Texas-Instruments-TPA2012D2RTJR_C7717.pdf).
 
 ## Connectors
 

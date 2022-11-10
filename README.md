@@ -1,3 +1,5 @@
+# KiCad boards
+
 This is a collection of mostly audio related dev boards designed in KiCad. The KiCad files are released under the [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Board folders
