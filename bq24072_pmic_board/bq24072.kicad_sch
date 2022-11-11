@@ -431,7 +431,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7ee840c0-d28a-41fd-bfb5-5b3b3cc0fe58)
   )
-  (hierarchical_label "VUSB" (shape input) (at 81.28 78.74 180)
+  (hierarchical_label "VBUS" (shape input) (at 81.28 78.74 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a5eada71-0d18-4908-8fd4-e2d44a9c6227)
   )
