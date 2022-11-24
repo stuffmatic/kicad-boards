@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pcm5102a_codec_breakout")(type "KiCad")(uri "${KIPRJMOD}/pcm5102a_codec_breakout.kicad_sym")(options "")(descr ""))
+)
