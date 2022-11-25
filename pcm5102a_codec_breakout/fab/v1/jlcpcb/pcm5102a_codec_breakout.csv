@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC Part #
+2.2u Unpolarized capacitor,"C101,C104",C_0402_1005Metric,C12530
+10u Polarized capacitor,"C102,C105,C109,C110",C_Elec_4x5.4,C213487
+0.1u Unpolarized capacitor,"C103,C106,C107,C108",C_0402_1005Metric,C1525
+2.2n Unpolarized capacitor,"C111,C112",C_0402_1005Metric,C1531
+"AudioJack3 Audio Jack, 3 Poles (Stereo / TRS)",J102,PJ-320B-3A,C707224
+470 Resistor,"R101,R102",R_0402_1005Metric,C25117
+pcm5102a ,U101,PCM5102A,C107671
