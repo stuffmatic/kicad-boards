@@ -986,7 +986,7 @@
   (symbol (lib_id "Device:R") (at 72.39 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6643bbe7-2449-4b4d-a1a7-c30690faa797)
-    (property "Reference" "R?" (id 0) (at 72.39 99.06 90))
+    (property "Reference" "R102" (id 0) (at 72.39 99.06 90))
     (property "Value" "470" (id 1) (at 72.39 101.6 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 72.39 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1004,7 +1004,7 @@
   (symbol (lib_id "Device:R") (at 72.39 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 66e5ffb0-c929-4d82-8ec0-170327964a62)
-    (property "Reference" "R?" (id 0) (at 72.39 88.9 90))
+    (property "Reference" "R101" (id 0) (at 72.39 88.9 90))
     (property "Value" "470" (id 1) (at 72.39 91.44 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 72.39 97.028 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1022,7 +1022,7 @@
   (symbol (lib_id "Device:C") (at 80.01 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 68a9cfb7-b1f7-4eec-b0cd-2984d3a7f61c)
-    (property "Reference" "C?" (id 0) (at 83.82 107.9499 0)
+    (property "Reference" "C112" (id 0) (at 83.82 107.9499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2n" (id 1) (at 83.82 110.4899 0)
@@ -1098,7 +1098,7 @@
   (symbol (lib_id "Device:C") (at 80.01 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 96785331-65e6-4566-adf9-070f1845b78d)
-    (property "Reference" "C?" (id 0) (at 83.82 90.1699 0)
+    (property "Reference" "C111" (id 0) (at 83.82 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2n" (id 1) (at 83.82 92.7099 0)
@@ -1371,6 +1371,9 @@
     (property "Datasheet" "" (id 3) (at 149.86 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C107671" (id 4) (at 149.86 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e06ef412-5f9e-4e40-8332-9273925c5d8e))
     (pin "10" (uuid 5711d172-a883-46a0-bd17-266ec869e9e6))
     (pin "11" (uuid e0c0a76b-e9d1-4bca-b311-3e37f2cd2e32))
@@ -1461,11 +1464,11 @@
     (path "/d4a19454-0b27-4ef5-968b-a39edfc96201"
       (reference "C110") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_Elec_4x5.4")
     )
-    (path "/68a9cfb7-b1f7-4eec-b0cd-2984d3a7f61c"
-      (reference "C?") (unit 1) (value "2.2n") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/96785331-65e6-4566-adf9-070f1845b78d"
-      (reference "C?") (unit 1) (value "2.2n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C111") (unit 1) (value "2.2n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/68a9cfb7-b1f7-4eec-b0cd-2984d3a7f61c"
+      (reference "C112") (unit 1) (value "2.2n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5b65a3c0-d262-4fa1-80ca-93a1a6a2dda9"
       (reference "J101") (unit 1) (value "Conn_01x07_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
@@ -1473,11 +1476,11 @@
     (path "/e5d40187-c8bb-4e65-9e01-71e3d21055c3"
       (reference "J102") (unit 1) (value "AudioJack3") (footprint "pcm5102a_codec_breakout:PJ-320B-3A")
     )
-    (path "/6643bbe7-2449-4b4d-a1a7-c30690faa797"
-      (reference "R?") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/66e5ffb0-c929-4d82-8ec0-170327964a62"
-      (reference "R?") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R101") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/6643bbe7-2449-4b4d-a1a7-c30690faa797"
+      (reference "R102") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/fcc9186e-ba32-42bb-b54f-c6db5152ae2e"
       (reference "U101") (unit 1) (value "pcm5102a") (footprint "pcm5102a_codec_breakout:PCM5102A")
