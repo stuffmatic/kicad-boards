@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/perarne/kicad/open-source-boards/bq24072_pmic_board/bq24072_pmic_board.kicad_sch</source>
-    <date>Wednesday, August 17, 2022 at 03:31:27 PM</date>
+    <date>Friday, November 25, 2022 at 09:55:18 AM</date>
     <tool>Eeschema (6.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -95,12 +95,12 @@
       <tstamps>c7397d23-c236-4cc1-9440-12726526abc6</tstamps>
     </comp>
     <comp ref="J103">
-      <value>Conn_01x04_Female</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
       <fields>
         <field name="JLCPCB BOM">False</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="JLCPCB BOM" value="False"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bq24072_pmic_board.kicad_sch"/>
@@ -416,15 +416,15 @@
         <pin num="17" name="VSS" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Female">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Female</field>
+        <field name="Value">Conn_01x05_Female</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -432,6 +432,7 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -593,7 +594,7 @@
   </libraries>
   <nets>
     <net code="1" name="3V3">
-      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
@@ -620,7 +621,7 @@
       <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J101" pin="5" pinfunction="GND" pintype="power_out"/>
       <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J103" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R202" pin="2" pintype="passive"/>
@@ -689,9 +690,10 @@
       <node ref="U201" pin="11" pinfunction="OUT" pintype="passive"/>
       <node ref="U201" pin="6" pinfunction="EN1" pintype="input"/>
     </net>
-    <net code="18" name="VUSB">
+    <net code="18" name="VBUS">
       <node ref="C201" pin="1" pintype="passive"/>
       <node ref="J101" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R101" pin="2" pintype="passive"/>
       <node ref="TP105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U201" pin="13" pinfunction="IN" pintype="power_in"/>
