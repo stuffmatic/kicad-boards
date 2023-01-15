@@ -4,7 +4,7 @@
 
 <img src="pcm5102a_codec_breakout.png" width="300">
 
-A breakout board for the [PCM5102A audio codec](datasheets/pcm5102a-q1.pdf) with a 3.5mm microphone line out jack.
+A breakout board for the [PCM5102A audio codec](datasheets/pcm5102a-q1.pdf) with a 3.5mm line out jack.
 
 ## Headers
 
@@ -15,7 +15,7 @@ See [datasheeet](datasheets/pcm5102a-q1.pdf).
 
 ## Connectors
 
-* __Line out__ - Line level output
+* __LINE OUT__ - Line level output.
 
 ## Hand soldered components
 

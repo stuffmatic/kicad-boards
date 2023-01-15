@@ -1,5 +1,7 @@
 # WM8758b audio codec breakout board
 
+⚠️ __Warning:__ The WM8758b has been [discontinued](https://www.cirrus.com/products/eol/).
+
 <img src="wm8758b_codec_breakout.jpg" width="300"> 
 
 <img src="wm8758b_codec_breakout.png" width="300">
