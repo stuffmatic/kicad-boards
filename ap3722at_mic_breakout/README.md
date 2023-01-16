@@ -6,7 +6,7 @@
 
 A breakout board for the [AP3722AT](datasheets/2011200934_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP3722AT_C918198.pdf) analog mono MEMS microphone.
 
-## Headers
+## Pinout
 
 See [datasheet](datasheets/2011200934_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP3722AT_C918198.pdf).
 

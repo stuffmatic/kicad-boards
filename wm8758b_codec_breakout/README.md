@@ -8,9 +8,12 @@
 
 A breakout board for the [WM8758b audio codec](datasheets/1811051126_Cirrus-Logic-WM8758CBGEFL-RV_C323840.pdf) with 3.5mm microphone input and line/headphone output jacks.
 
-## Headers
+## Pinout
 
-See [datasheeet](datasheets/1811051126_Cirrus-Logic-WM8758CBGEFL-RV_C323840.pdf).
+* __VDD__ - 3.3V supply voltage
+* __GND__ - Ground
+
+See [datasheeet](datasheets/1811051126_Cirrus-Logic-WM8758CBGEFL-RV_C323840.pdf) for the other pins.
 
 ## Connectors
 

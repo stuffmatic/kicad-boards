@@ -6,10 +6,11 @@
 
 A USB LiPo battery charger and power-path management board based on [Texas Instruments BQ24072](datasheets/1806131014_Texas-Instruments-BQ24072RGTR_C140288.pdf).
 
-## Headers
+## Pinout
 
-* __3V3__ - 3.3V output voltage 
+* __VBUS__ - 5V USB bus voltage
 * __D-, D+__ - USB data lines
+* __3V3__ - 3.3V output voltage 
 * __GND__ - Ground
 
 ## Connectors
@@ -24,5 +25,5 @@ A USB LiPo battery charger and power-path management board based on [Texas Instr
 
 ## Hand soldered components
 
-* 1x4 2.54 mm headers
+* 1x5 2.54 mm headers
 * 2-pin, 2.0 mm pitch, horizontal JST PH connector (**BAT**)

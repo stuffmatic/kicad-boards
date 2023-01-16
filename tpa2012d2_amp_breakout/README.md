@@ -6,7 +6,7 @@
 
 A [TPA2012D2](datasheets/1809121818_Texas-Instruments-TPA2012D2RTJR_C7717.pdf) class-D stereo audio power amplifier breakout board with a 3.5mm line input jack.
 
-## Headers
+## Pinout
 
 * __GND__ - Ground
 * __INL__ and __INR__ - Left and right channel line input. May be used instead of the line input jack.
